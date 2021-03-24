@@ -18,7 +18,7 @@ const PostElements = ({ marginTop = "5vh", marginBottom = "5vh", post }) => {
             <div className="PostElementsMinRead">{post.minRead} min read</div>
           </div>
           <div style={{ marginTop: marginTop }}></div>
-          <img src={post.imageUrl ? post.imageUrl : DEFAULT_IMG_URL} style={{ width: "100%", height: "480px" }} />
+          <img src={post.imageUrl ? post.imageUrl : DEFAULT_IMG_URL} style={{ width: "100%", maxHeight: "480px" }} />
           <div style={{ marginTop: marginTop }}></div>
           <div className="PostElementsBody" dangerouslySetInnerHTML={createMarkup(post.  body)} />
 
