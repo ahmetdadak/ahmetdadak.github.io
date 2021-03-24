@@ -4,7 +4,7 @@ import Blog from './components/Blog/Blog'
 import Post from './components/Post/Post'
 import NewPost from './components/NewPost/NewPost'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
