@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 function App() {
 
-  console.log("s", window.location.pathname)
   console.log(process.env.PUBLIC_URL)
 
   return (
