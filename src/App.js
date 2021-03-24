@@ -9,9 +9,6 @@ import {
   Route
 } from "react-router-dom";
 function App() {
-
-  console.log(process.env.PUBLIC_URL)
-
   return (
     <Router basename={process.env.PUBLIC_URL}>
 
