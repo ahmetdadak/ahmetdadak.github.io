@@ -1,0 +1,23 @@
+.PostElementTitle{
+    font-size: 40px;
+}
+.PostElementsLine{
+    border-color: black;
+    background-color: black;
+    color: black;
+}
+.PostElementsInfo {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.PostElementsInfoSep{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding: 0 6px;
+}
+.PostElementsBody{
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Newsreader', serif;
+}

@@ -1,0 +1,44 @@
+.PostsElementsLink:hover{
+    color: #e84545;
+}
+.PostsElementsLink:visited, :active{
+    color: inherit;
+}
+.PostsElementsTitle{
+    font-family: 'Cabin', sans-serif;
+}
+.PostsElementsBody{
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+    font-family: 'Newsreader', serif;
+}
+.PostsElementsLine{
+    border-color: black;
+    background-color: black;
+    color: black;
+}
+.PostsElementsInfo {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.PostsElementsInfoSep{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    padding: 0 6px;
+}
+.ListView{
+    display: flex;
+    justify-content: space-between;
+}
+.ImageContainer{
+    margin: auto 0;
+}
+.ListViewImage{
+    width: 18vh;
+    height: 12vh;
+}

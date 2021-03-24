@@ -1,0 +1,9 @@
+.container{
+    max-width: 720px;
+}
+.AllPosts {
+    margin-top: 5vh;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
