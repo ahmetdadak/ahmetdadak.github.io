@@ -20,6 +20,7 @@ function App() {
       <Route exact path ="/">
         <Landing/>
       </Route>
+      {/*
       <Route exact path="/blog">
         <Blog/>
       </Route>
@@ -29,6 +30,7 @@ function App() {
       <Route exact path="/blog/:id">
         <Post/>
       </Route>
+      */}
       <Route path="*">
         <NotFoundPage/>
         </Route>

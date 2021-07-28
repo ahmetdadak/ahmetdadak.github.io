@@ -3,7 +3,7 @@ import './About.css'
 const About = ({marginTop}) => {
     return (
         <div className="About" style={{marginTop: marginTop}}>
-            Senior Computer Engineering Student at Bogazici University. Mostly writes code and sometimes blog.
+            Graduated from the Department of Computer Engineering of Bogazici University. Writes code and blog, likes design and music.
         </div>
      );
 }
