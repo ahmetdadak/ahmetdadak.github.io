@@ -7,9 +7,11 @@ const NavBarElements = () => {
       <li>
         <Link to="/" style={{textDecoration: "none"}}>Ahmet Dadak</Link>
       </li>
+      {/*
       <li>
         <Link to="/blog" style={{textDecoration: "none"}}>Blog</Link>
       </li>
+      */}
     </ul>
   );
 };
